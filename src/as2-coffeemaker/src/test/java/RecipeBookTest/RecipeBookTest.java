@@ -18,7 +18,7 @@ public class RecipeBookTest {
     }
 
     @Test
-    public void testAddRecipe() {
+    public void AddRecipe() {
         // Test adding a valid recipe
         Recipe recipe = new Recipe();
         recipe.setName("TestRecipe");
@@ -29,13 +29,13 @@ public class RecipeBookTest {
     }
 
     @Test
-    public void testDeleteNonExistingRecipe() {
+    public void DeleteNonExistingRecipe() {
         // Test deleting a non-existing recipe
         assertNull(recipeBook.deleteRecipe(0));
     }
 
     @Test
-    public void testEditNonExistingRecipe() {
+    public void EditNonExistingRecipe() {
         // Test editing a non-existing recipe
         Recipe newRecipe = new Recipe();
         newRecipe.setName("EditedRecipe");
@@ -43,7 +43,7 @@ public class RecipeBookTest {
     }
 
     @Test
-    public void testAddMaxRecipes() {
+    public void AddMaxRecipes() {
         // Test adding the maximum number of recipes
         Recipe recipe1 = new Recipe();
         Recipe recipe2 = new Recipe();

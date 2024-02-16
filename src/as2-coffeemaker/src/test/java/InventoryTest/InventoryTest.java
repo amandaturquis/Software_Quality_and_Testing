@@ -21,7 +21,7 @@ public class InventoryTest {
     }
 
     @Test
-    public void testAddCoffee() {
+    public void AddCoffee() {
         // Test adding valid coffee units
         try {
             inventory.addCoffee("5");
@@ -40,7 +40,7 @@ public class InventoryTest {
     }
 
     @Test
-    public void testAddMilk() {
+    public void AddMilk() {
         // Test adding valid milk units
         try {
             inventory.addMilk("4");
@@ -59,7 +59,7 @@ public class InventoryTest {
     }
 
     @Test
-    public void testUseIngredients() throws RecipeException {
+    public void UseIngredients() throws RecipeException {
         // Test using ingredients with enough inventory
         Recipe recipe = new Recipe();
         recipe.setAmtCoffee("2");

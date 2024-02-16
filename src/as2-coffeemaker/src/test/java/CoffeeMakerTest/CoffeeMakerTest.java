@@ -19,7 +19,7 @@ public class CoffeeMakerTest {
     }
 
     @Test
-    public void testAddRecipe() {
+    public void AddRecipe() {
         // Test adding a valid recipe
         Recipe recipe = new Recipe();
         recipe.setName("TestRecipe");
@@ -30,7 +30,7 @@ public class CoffeeMakerTest {
     }
 
     @Test
-    public void testDeleteRecipe() {
+    public void DeleteRecipe() {
         // Test deleting an existing recipe
         Recipe recipe = new Recipe();
         recipe.setName("TestRecipe");
@@ -42,7 +42,7 @@ public class CoffeeMakerTest {
     }
 
     @Test
-    public void testEditRecipe() {
+    public void EditRecipe() {
         // Test editing an existing recipe
         Recipe originalRecipe = new Recipe();
         originalRecipe.setName("OriginalRecipe");
